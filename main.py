@@ -8,10 +8,10 @@ def main():
 
     for product in products:
         print(f"Generating description for: {product['title']}")
-        description = generate_description(product)
-        write_html_output(product, description, OUTPUT_DIR)
+        sections = generate_description(product)
+        write_html_output(product, sections, OUTPUT_DIR)
 
-    print("✅ تولید محتوا و ذخیره HTML با موفقیت انجام شد.")
+    print("✅ Content generation and HTML saving completed successfully.")
 
 if __name__ == "__main__":
     main()

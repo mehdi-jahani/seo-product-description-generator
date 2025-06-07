@@ -1,11 +1,27 @@
-Introducing the {{title}} – your ideal choice in {{category}}.
+<html>
+<head>
+  <title>{{title}}</title>
+</head>
+<body>
+  <h1>🔥 Discover the Power of <strong>{{title}}</strong> – A Must-Have in the <strong>{{category}}</strong> Category! 🔥</h1>
 
-Key Features:
-{{features}}
+  <h2>💡 Key Features</h2>
+  <ul>
+    {{features}}
+  </ul>
 
-Price: ${{price}}
+  <p><strong>💲 Price:</strong> ${{price}}</p>
 
-Why choose this product?
-{{body}}
+  <h2>✨ What Makes It Special?</h2>
+  <p>{{body_section_1}}</p>
 
-Order now and experience the difference.
+  <h2>🚀 Why You'll Love It</h2>
+  <p>{{body_section_2}}</p>
+
+  <h2>🎯 Perfect For</h2>
+  <p>{{body_section_3}}</p>
+
+  <h2>🛒 Final Call</h2>
+  <p>{{cta}}</p>
+</body>
+</html>

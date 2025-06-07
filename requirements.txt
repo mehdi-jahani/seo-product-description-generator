@@ -2,3 +2,7 @@ transformers
 accelerate
 torch
 huggingface_hub
+hf_xet
+vllm
+vllm[serve]
+uvloop
